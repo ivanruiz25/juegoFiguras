@@ -1,0 +1,126 @@
+h1{
+	text-align: center;
+	font-size: 3em;
+}
+h2
+{
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 5%;
+}
+
+.contenedorPrincipal{
+
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.contenedorGrises{
+
+	display:flex;
+	flex-direction: column;
+	margin-right: 25%;
+	margin-left: 30%;
+
+}
+.contenedorVacias{
+
+	display:flex;
+	flex-direction: column;
+	margin-right: 25%;
+
+}
+.cuadrado{
+
+	width: 100px;
+	height: 100px;
+	background-color: #AFABAB;
+	margin:8%;
+	
+	
+}
+.vacioC{
+
+	width: 100px;
+	height: 100px;
+	background-color: #D82617;
+	margin:8%;
+	
+}
+
+.triangulo{
+
+	width: 0;
+	height: 0;
+	border-right: 50px solid transparent;
+	border-top: 50px solid transparent;
+	border-left: 50px solid #AFABAB;
+	border-bottom: 50px solid #AFABAB;
+	margin:8%;
+	
+}
+.vacioT{
+
+	width: 0;
+	height: 0;
+	border-right: 50px solid transparent;
+	border-top: 50px solid transparent;
+	border-left: 50px solid #175DD8;
+	border-bottom: 50px solid #175DD8;
+	margin:8%;
+	
+}
+
+.huevo{
+
+	width: 100px;
+	height: 154px;
+	background-color: #AFABAB;
+	-moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	-webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	border-radius: 50% 50% 50% / 60% 60% 40% 40%; 
+	margin:8%;
+	
+}
+.vacioH{
+
+	width: 100px;
+	height: 154px;
+	background-color: #D817BD;
+	-moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	-webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	border-radius: 50% 50% 50% / 60% 60% 40% 40%; 
+	margin:8%;
+	
+
+}
+.trapecio{
+
+	width: 150px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #AFABAB;
+    margin:8%;
+	
+}
+.vacioTr{
+
+	width: 150px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #BAC212;
+    margin:8%;
+}
+input{
+
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	background-color: red;
+	color: white;
+	font-size: 3em;
+	margin-left: 35%;
+
+}
